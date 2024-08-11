@@ -15,7 +15,7 @@ Snappy is chat application build with the power of MERN Stack.
 Both should be installed and make sure mongodb is running.
 ### Installation
 ```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
+git clone https://github.com/shishir91/Chat_App-MERN.git
 cd chat-app-react-nodejs
 ```
 Now rename env files from .env.example to .env
@@ -27,6 +27,7 @@ cd server
 mv .env.example .env
 cd ..
 ```
+Replace MONGO_URL with your mongodb url.
 
 Now install the dependencies
 ```shell
